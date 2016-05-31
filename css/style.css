@@ -1,0 +1,64 @@
+body {
+  background-color: #999
+}
+
+.container-fluid {
+  padding: 5%;
+}
+
+h3 {
+  padding: 20px;
+}
+
+.timer {
+  padding-top: 5%;
+}
+
+.start-button {
+  padding: 2%;
+  
+}
+
+#start.start,
+.start{
+  background-color:#005500;
+  color:#fff ;
+}
+#start.stop,.stop{
+  background-color:#dd3322;
+  color:#fff ;
+}
+
+#start:hover{
+  background-color:#222;
+  color:white
+}
+
+.add {
+  background-color: #aaff00;
+  color: blue;
+  font-size: 25px;
+  padding: 0 10px;
+}
+.add:hover{
+  background-color:rgba(5, 100, 25, 0.8);
+}
+
+.subtract {
+  background-color: #ff3300;
+  color: blue;
+  font-size: 25px;
+  padding: 0 13px;
+}
+.subtract:hover{
+  background-color:rgba(100, 25, 5, 0.8);
+}
+
+.display {
+  font-size: 50px;
+  padding: 15px;
+  margin: auto;
+  border-style: solid;
+  border-radius: 25px;
+  background-color: white;
+}

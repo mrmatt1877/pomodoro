@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Pomodoro finished</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="container-fluid text-center">
+
+  <!-- display for the countdown-->
+  <div class="timer col-s-12 col-md-12">
+    <span class="display" id="timer-display">00:00</span>
+  </div>
+  <div class="start-button col-md-12">
+    <button id="start" class="start btn btn-default">Start</button>
+  </div>
+  <!--adding/subtracting time from the countdown-->
+  <div class="session-timer col-s-12 col-md-6">
+    <h3>Session Length</h3>
+    <button class="add btn btn-default" id="add-time">+</button>
+    <span class="display" id="session-display">0</span>
+    <button class="subtract btn btn-default" id="sub-time">-</button>
+  </div>
+  <!-- adding/subtracting time from a break between countdowns-->
+  <div class="break-timer col-s-12 col-md-6">
+    <h3>Break Length</h3>
+    <button class="add btn btn-default" id="add-break">+</button>
+    <span class="display" id="break-display">0</span>
+    <button class="subtract btn btn-default" id="sub-break">-</button>
+  </div>
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
